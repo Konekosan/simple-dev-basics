@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+/* --- Variables globales (charte graphique) --- */
+:root {
+  --color-primary: #3f51b5;
+  --color-secondary: #ff4081;
+  --color-bg: #f5f6fa;
+  --color-text: #2d3436;
+
+  --font-main: "Inter", "Roboto", sans-serif;
+}
+
+/* --- Reset minimal --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+/* --- Containers utiles --- */
+.app-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
