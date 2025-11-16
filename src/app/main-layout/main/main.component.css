@@ -1,0 +1,8 @@
+.container {
+  max-width: var(--content-max-width);
+  background-color: rgb(225, 223, 223);
+  padding: 1rem;
+  align-items: center;
+  border-radius: 10px;
+  min-height: calc(100vh - 20px);
+}
