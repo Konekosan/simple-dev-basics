@@ -1,20 +1,21 @@
 <header class="topbar">
   <div class="container">
     <div class="left">
-      <h1 class="title">Simple Dev Basics</h1>
-    </div>
-    <div class="menu-container">
-      <button class="menu-btn" (click)="toggleMenu()">Programmation</button>
-      <div class="menu-dropdown" [class.show]="menuOpen">
-        <a href="#">Accueil</a>
-        <a href="#">Fonctionnalités</a>
-        <a href="#">À propos</a>
-        <a href="#">Contact</a>
+      <h1 class="title" routerLink="/">Simple Dev Basics</h1>
+      <div class="menu-container">
+        <button class="menu-btn" (click)="toggleMenu()">Technique</button>
+        <div class="menu-dropdown" [class.show]="menuOpen">
+          <a href="#">Accueil</a>
+          <a href="#">Fonctionnalités</a>
+          <a href="#">À propos</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
     </div>
-    <div class="right">
-      <button class="topbar-btn">Login</button>
-      <button class="topbar-btn">Logout</button>
-    </div>
+
+  <div class="right">
+    <button class="topbar-btn">Login</button>
+    <button class="topbar-btn">Logout</button>
+  </div>
   </div>
 </header>

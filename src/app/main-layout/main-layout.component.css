@@ -12,7 +12,12 @@
 
 .container {
   width: 100%;
-  max-width: var(--content-max-width);
   margin: 0 auto;
-  padding: 0 var(--page-gutter);
+  max-width: var(--content-max-width);
+  background-color: rgb(225, 223, 223);
+  padding-top: 2rem;
+  padding-left: 4rem;
+  align-items: center;
+  border-radius: 10px;
+  min-height: calc(100vh - 20px);
 }

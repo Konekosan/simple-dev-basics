@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Lion",
+        "species": "Animal sauvage (mammifère)",
+        "description": "Ceci est un Lion.",
+        "color": "Jaune",
+        "image": "https://s25.postimg.org/55ot26lq7/lion_large.jpg"
+    },
+    {
+        "name": "Singes",
+        "species": "Mammifères placentaires",
+        "description": "Ceci est un Lion.",
+        "color": "Marron",
+        "image": "https://s25.postimg.org/f49ronv5r/monkey_large.jpg"
+    },
+    {
+        "name": "Chouettes",
+        "species": "Oiseau",
+        "description": "Ceci est un Lion.",
+        "color": "Blanche",
+        "image": "https://s25.postimg.org/nb1rg8l8f/owl_large.jpg"
+    },
+    {
+        "name": "Paons",
+        "species": "Oiseau",
+        "description": "Ceci est un Lion.",
+        "color": "Vert",
+        "image": "https://s25.postimg.org/oelvs75vj/peacock_large.jpg"
+    },
+    {
+        "name": "Piegon",
+        "species": "Oiseau",
+        "description": "Ceci est un Lion.",
+        "color": "Gris",
+        "image": "https://s25.postimg.org/oelvs75vj/peacock_large.jpg"
+    },
+    {
+        "name": "Spider",
+        "species": "Arachnides",
+        "description": "Ceci est un Lion.",
+        "color": "Araignées",
+        "image": "https://s25.postimg.org/tsp9dhkzj/spider_large.jpg"
+    },
+    {
+        "name": "Tortue",
+        "species": "Reptile",
+        "description": "Ceci est un Lion.",
+        "color": "Marron",
+        "image": "https://s25.postimg.org/g0auhuu7z/totoise_large.jpg"
+    },
+    {
+        "name": "Zebre",
+        "species": "Mammifère",
+        "description": "Ceci est un Lion.",
+        "color": "Blanc",
+        "image": "https://s25.postimg.org/xrmgwb9mn/zebra_large.jpg"
+    },
+        {
+        "name": "Baleine",
+        "species": "Animal sauvage (mammifère)",
+        "description": "Ceci est un Lion.",
+        "color": "Jaune",
+        "image": "https://s25.postimg.org/55ot26lq7/lion_large.jpg"
+    }
+]

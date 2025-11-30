@@ -1,4 +1,18 @@
 <div class="container">
-    <h1>Simple Dev Basics</h1>
-    <p>Bienvenue dans mon app Angular 🚀</p>
+    <h1>{{ title }}</h1>
+    <p>{{ welcomeText }}</p>
+
+    <div class="tuiles-container">
+    <div 
+        class="tuile"
+        *ngFor="let tuile of tuiles"
+        [routerLink]="tuile.route"
+    >
+        
+        <h3>{{ tuile.name }}</h3>
+        <p>{{ tuile.description }}</p>
+    </div>
+    </div>
 </div>
+
+<router-outlet></router-outlet>
